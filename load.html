@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Excerice-8</title>
+
+  <script>
+    // 이 코드를 body 태그 아래에 위치시키면 제대로 동작함
+    var elem = document.getElementById("myBody");
+    if (elem == null)
+      alert("body is not made yet");
+    else
+      alert(elem.firstElementChild.innerHTML)
+  </script>
+
+</head>
+
+<body id="myBody">
+  <p id="first"> hello </p>
+</body>
+
+</html>
